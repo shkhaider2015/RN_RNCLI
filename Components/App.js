@@ -1,10 +1,11 @@
 import React from 'react'
 import { Text } from 'react-native'
+import { NavigationDrawer } from './NavigationDrawer'
 
 
 const App = () => 
 {
-    return <Text>Hello React Native</Text>
+    return <NavigationDrawer />
 }
 
 export default App
